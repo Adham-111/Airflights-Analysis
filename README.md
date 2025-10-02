@@ -76,26 +76,29 @@ https://github.com/user-attachments/assets/0a162724-1c7f-4739-b03e-1965bf983bc6
   - Airlines should improve internal operations and scheduling.  
   - Airports in hotspot regions need better capacity planning during peak months.  
 
----
-
 ### 2. Airline Performance Dashboard  
 
 ![airline performance](https://github.com/user-attachments/assets/7050704a-fa16-4d29-8159-c9495aee6d00)
 
 
-- **Questions Answered:**  
-  - Which airlines have the highest average delay?  
-  - What are the main delay causes per airline?  
-  - How does on-time performance vary through the year?  
+- **Key Features:**  
+  - Track the **performance of each carrier** using slicers (filter by airline).  
+  - **Breakdown of delay reasons** per airline (carrier, weather, NAS, late aircraft, security).  
+  - Monitor **arrival delay % trend by month** to capture seasonal and operational changes.  
+  - Explore **flight-level details** for each airline to identify problem routes or times.  
+  - Calculate **average arrival delay** per airline to compare punctuality across carriers.  
 
 - **Insights:**  
-  - Worst performers: **JetBlue, Mesa Airways, ExpressJet**.  
-  - Delay causes are dominated by **carrier-related issues**.  
-  - On-time performance is better in **spring and fall**.  
+  - **JetBlue Airways** records the highest average arrival delay, followed by **Mesa Airways** and **ExpressJet Airlines**.  
+  - **Carrier-related issues** remain the primary cause of delays across most airlines, emphasizing internal operational inefficiencies.  
+  - Arrival delay percentages spike during **summer months (July–August)** and **December**, reflecting high travel demand and system congestion.  
+  - Airlines with stronger operational planning (e.g., **Alaska Airlines**) show more stable on-time performance across the year.  
+  - Flight-level details reveal that delays are not uniform — certain **routes and peak-time flights** contribute disproportionately to overall delays.  
 
 - **Recommendations:**  
-  - Airlines must prioritize **operational improvements**.  
-  - Focus on maintenance, staffing, and fleet readiness.  
+  - Airlines should invest in **route-level optimization** to reduce delays in high-risk corridors.  
+  - Apply **seasonal staffing and scheduling strategies** during summer and year-end peaks.  
+  - Improve **carrier operations** through better maintenance, crew scheduling, and turnaround time management.  
 
 
 ### 3. Airport Performance Dashboard
@@ -104,20 +107,25 @@ https://github.com/user-attachments/assets/0a162724-1c7f-4739-b03e-1965bf983bc6
 
 
 
-- **Questions Answered:**  
-  - Which airports face the worst delays?  
-  - How do delays vary by time of day?  
-  - Which airports have the most delayed flights?  
+- **Key Features:**  
+  - Track the **performance of each airport** using slicers (filter by airport).  
+  - Monitor the **average arrival delay by hour** to understand time-of-day patterns.  
+  - Highlight airports with the **highest percentage of flights not arriving on time**.  
+  - Compare **average departure delay vs. average arrival delay** to capture cascading effects.  
+  - **Breakdown of delay reasons** per airport to identify local challenges (carrier, weather, NAS, late aircraft, security).  
 
 - **Insights:**  
-  - Highest average delays: **Houghton County, Atlantic City International**.  
-  - Delay peak hours: **4 PM – 8 PM**.  
-  - Top delay locations: **ATL, ORD, DFW** (busiest hubs).  
+  - **Houghton County Memorial (CMX)** and **Atlantic City International (ACY)** have the highest average arrival delays, making them top problem airports.  
+  - Delays peak between **16:00–20:00 (late afternoon to evening)**, mainly due to traffic congestion and spillover from earlier delays.  
+  - Major hubs like **Atlanta (ATL)**, **Chicago O'Hare (ORD)**, and **Dallas/Fort Worth (DFW)** show the **highest number of delayed flights**, consistent with their heavy traffic load.  
+  - On-time performance varies significantly across airports, with some regional airports struggling to maintain punctuality.  
+  - In many airports, **departure delays strongly correlate with arrival delays**, showing how early disruptions cascade throughout the day.  
 
 - **Recommendations:**  
-  - Airports should optimize **slot allocation** in peak hours.  
-  - Enhance **traffic flow management** to reduce cascading delays.  
-
+  - Focus on **congestion management** in peak hours (16:00–20:00) through better scheduling and slot allocation.  
+  - Airports with **persistent delay causes (e.g., weather or carrier issues)** should coordinate closely with airlines for mitigation strategies.  
+  - Major hubs (ATL, ORD, DFW) should invest in **real-time monitoring systems** to reduce cascading effects and improve turnaround efficiency.  
+  - Regional airports with high delay ratios should implement **localized operational improvements**, such as better ground handling and staffing.
 ---
 
 ## 🚀 Tools & Technologies  
